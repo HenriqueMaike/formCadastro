@@ -1,0 +1,19 @@
+export class Candidato {
+  nome: string = '';
+  cpf: number = 11;
+  genero: number = 1;
+  dataNascimento: Date = null;
+  numCelular: number = 11;
+  endereco: string = '';
+  cidade: string = '';
+  estado: string = '';
+  estado_civil: number = 3;
+  escolaridade: number = 5;
+  conhecimentos: number = 20;
+  nivel: number = 2;
+  empresa: string = '';
+  cargo: string = '';
+  data_entrada: Date = null;
+  data_saida: Date = null;
+  descricao: string = '';
+}

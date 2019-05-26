@@ -1,14 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
+import { FormularioComponent } from './candidato/formulario/formulario.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormularioComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
